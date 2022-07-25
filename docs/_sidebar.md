@@ -9,3 +9,4 @@
 * PeckotMC
     * [由此开始](/peckotmc/)
         * [注册登录](/peckotmc/reg-log.md)
+    * [会员特权](/peckotmc/pro.md)
