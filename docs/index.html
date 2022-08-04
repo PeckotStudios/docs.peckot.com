@@ -54,9 +54,9 @@
         function(hook) {
           var footer = [
             '<footer style="text-align: center;margin-top: 50px;">',
-            '<span> Peckot Docs &copy; <a href="https://peckot.com">Peckot Studios</a> 2021-2022. All rights reserved.</span>',
+            '<span> Peckot Docs &copy; <a href="https://peckot.com">Peckot Studios</a> 2021-{year}. All rights reserved.</span>',
             '</footer>'
-          ].join('');
+          ].join('').replaceAll('{year}', new Date().getFullYear());
 
           hook.afterEach(function(html) {
             return html + footer;
