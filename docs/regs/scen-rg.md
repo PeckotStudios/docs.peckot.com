@@ -23,8 +23,8 @@
 
 ## 条例目录
 
-* [第三方群聊管理条例](scen-rg.md#第三方群聊管理条例)
-* [PeckotMC服务器规则条例](scen-rg.md#PeckotMC服务器规则条例)
+* [第三方群聊管理条例](scen-rg.md#《第三方群聊管理条例》)
+* [PeckotMC服务器规则条例](scen-rg.md#《PeckotMC服务器规则条例》)
 
 ## 条例正文
 
