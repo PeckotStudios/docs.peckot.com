@@ -25,15 +25,15 @@ function HomepageHeader() {
           <div className={styles.button}>
             <Link
               className="button button--outline button--primary button--lg"
-              to="/docs/intro">
-              帮助文档
+              to="/docs/PeckotMC">
+              PeckotMC
             </Link>
           </div>
           <div className={styles.button}>
             <Link
               className="button button--outline button--primary button--lg"
-              to="/docs/intro">
-              开发文档
+              to="https://github.com/Peckot-Studios/docs.peckot.com">
+              查看仓库
             </Link>
           </div>
         </div>
@@ -46,8 +46,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Peckot Studios 的项目文档">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
