@@ -21,12 +21,12 @@ Peckot Studios 诞生于**2021年6月27日**，自成立以来，我们一直致
 * ~~Bug开发~~
 
 :::tip
-Peckot Studios 在早期实际上就已经开始进行 Paper/Spigot/Bukkit 插件的开发了，只不过由于技术问题一直挖坑&弃坑，导致一直没有一个能拿出来的正经项目。😦
+Peckot Studios 在早期实际上就已经开始进行 Paper/Spigot/Bukkit 插件的开发了，只不过由于技术问题一直挖坑&弃坑，导致一直没有一个能拿出手的正经项目。😦
 :::
 
 ## 团队成员
 
 * Pectics：主创
-* Bill Zhong
+* Bill Zhong：主要成员
 
 > 持续编辑中...
