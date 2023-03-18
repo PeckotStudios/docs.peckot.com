@@ -26,7 +26,7 @@ tags:
 
 | 是否可选 | 参数 | 类型 | 默认值 | 描述 | 可选值 |
 |---------|------|-----|--------|------|-------|
-| ✅ | area | string | "cn" | 图片壁纸所在的区域 | [ISO2](https://zh.wikipedia.org/wiki/ISO_3166-1_alpha-2)国家代码 |
+| ✅ | area | string | "cn" | 图片壁纸所在的区域 | ISO2[^1] 国家代码 |
 | ✅ | type | string | "json" | 返回格式类型 | "json"、"image" |
 | ✅ | node | string | "default" | Bing域名节点 | "default"、"interl" |
 | ✅ | size | string | "1920x1080" | 壁纸的分辨率 | "1920x1200"、"1366x768"等 |
@@ -40,7 +40,7 @@ tags:
 对于 JSON 类型的响应，它的返回值是一个JSON格式对象，以下是每个字段的解释：  
 
 | 响应 | 参数 | 类型 | 描述 |
-| ALL |-------|------|------|
+|-----|------|------|------|
 | ALL | code | integer | HTTP状态码 |
 | ALL | message | string | 响应状态信息 |
 | FAILED | advice | string | 请求失败时的错误提示 |
@@ -107,3 +107,5 @@ curl 'https://api.peckot.com/BingDailyWallpaper' \
   "advice": "Confirm whether your parameters are correct."
 }
 ```
+
+[^1]: ISO 3166-1 二位字母代码，详见 [维基百科-中文](https://zh.wikipedia.org/wiki/ISO_3166-1_alpha-2)。
