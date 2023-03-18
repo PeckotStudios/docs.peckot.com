@@ -5,9 +5,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Peckot 文档',
   tagline: '在此浏览来彻底了解 Peckot 及其项目内容',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.peckot.com',
   baseUrl: '/',
 
   organizationName: 'Peckot-Studios',
@@ -70,8 +70,8 @@ const config = {
         title: 'Peckot 文档',
         logo: {
           alt: 'Logo',
-          src: 'https://peckot.com/logo-cc-1.png',
-          srcDark: 'https://peckot.com/logo-cc-2.png',
+          src: 'img/logo-cc-1.png',
+          srcDark: 'img/logo-cc-2.png',
           width: 32,
           height: 32,
         },
