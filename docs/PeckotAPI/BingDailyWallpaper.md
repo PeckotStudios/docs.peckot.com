@@ -12,6 +12,12 @@ tags:
 
 该接口从必应获取不同日期的壁纸信息、并以JSON或是图片的形式返回，且包括多种可用分辨率。
 
+**接口地址**
+
+```text
+https://api.peckot.com/BingDailyWallpaper
+```
+
 ## 请求参数
 
 :::tip

@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Peckot 文档',
-  tagline: '在此浏览来彻底了解 Peckot 及其项目内容',
+  tagline: 'Peckot Studios 的官方文档页面',
   favicon: 'img/favicon.png',
 
   url: 'https://docs.peckot.com',
@@ -28,10 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Peckot-Studios/docs.peckot.com',
+          editUrl: 'https://github.com/Peckot-Studios/docs.peckot.com',
         },
         blog: false,
         theme: {

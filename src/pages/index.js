@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Peckot Studios 的项目文档">
+      description="Peckot Studios 的官方文档页面">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
