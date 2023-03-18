@@ -39,12 +39,12 @@ tags:
 
 对于 JSON 类型的响应，它的返回值是一个JSON格式对象，以下是每个字段的解释：  
 
-| 参数 | 类型 | 描述 |
-|-------|------|------|
-| code | integer | HTTP状态码 |
-| message | string | 响应状态信息 |
-| advice | string | 请求失败时的错误提示 |
-| data | object | 包含壁纸信息的响应数据 |
+| 响应 | 参数 | 类型 | 描述 |
+| ALL |-------|------|------|
+| ALL | code | integer | HTTP状态码 |
+| ALL | message | string | 响应状态信息 |
+| FAILED | advice | string | 请求失败时的错误提示 |
+| SUCCESS | data | object | 包含壁纸信息的响应数据 |
 
 **data 字段包含了一个壁纸信息数组，其中每个元素包含以下字段：**
 
