@@ -25,13 +25,13 @@ tags:
 :::
 
 | 可选性 | 参数 | 类型 | 默认值 | 描述 | 可选值 |
-|---------|------|-----|--------|------|-------|
-| ✅ | area | string | "cn" | 图片壁纸所在的区域 | ISO2[^1] 国家代码 |
-| ✅ | type | string | "json" | 返回格式类型 | "json"、"image" |
-| ✅ | node | string | "default" | Bing域名节点 | "default"、"interl" |
-| ✅ | size | string | "1920x1080" | 壁纸的分辨率 | "1920x1200"、"1366x768"等 |
-| ✅ | date | integer | 0 | 壁纸日期，0为今天，n为n天前 | 0-7 |
-| ✅ | num | integer | 1 | 获取的壁纸数量 | 1-8 |
+|-------|------|-----|--------|------|-------|
+| ✔️ | area | string | "cn" | 图片壁纸所在的区域 | ISO2[^1] 国家代码 |
+| ✔️ | type | string | "json" | 返回格式类型 | "json"、"image" |
+| ✔️ | node | string | "default" | Bing域名节点 | "default"、"interl" |
+| ✔️ | size | string | "1920x1080" | 壁纸的分辨率 | "1920x1200"、"1366x768"等 |
+| ✔️ | date | integer | 0 | 壁纸日期，0为今天，n为n天前 | 0-7 |
+| ✔️ | num | integer | 1 | 获取的壁纸数量 | 1-8 |
 
 ## 返回结果
 

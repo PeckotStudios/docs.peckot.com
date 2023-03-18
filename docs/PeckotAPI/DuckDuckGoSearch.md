@@ -19,9 +19,9 @@ tags:
 
 | 可选性 | 参数 | 类型 | 默认值 | 描述 | 可选值 |
 |-------|------|-----|--------|------|-------|
-| ❎ | keyword | string | - | 要搜索的关键字 | - |
-| ✅ | amount | integer | 5 | 要返回的搜索结果数 | 1-50 |
-| ✅ | time | string | null | 搜索的日期范围 | "year"、"month"、"week"、"day"、null |
+| ❌ | keyword | string | - | 要搜索的关键字 | - |
+| ✔️ | amount | integer | 5 | 要返回的搜索结果数 | 1-50 |
+| ✔️ | time | string | null | 搜索的日期范围 | "year"、"month"、"week"、"day"、null |
 
 ## 返回结果
 
