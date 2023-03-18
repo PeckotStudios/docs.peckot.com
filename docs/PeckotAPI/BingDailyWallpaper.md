@@ -41,7 +41,7 @@ tags:
 
 | 响应 | 参数 | 类型 | 描述 |
 |-----|------|------|------|
-| ALL | code | integer | HTTP状态码 |
+| ALL | code | integer | HTTP 状态码 |
 | ALL | message | string | 响应状态信息 |
 | FAILED | advice | string | 请求失败时的错误提示 |
 | SUCCESS | data | object | 包含壁纸信息的响应数据 |
