@@ -83,6 +83,11 @@ const config = {
             activeBaseRegex: 'docs(/((about)|(projects)))?/?$',
           },
           {
+            to: 'docs/PeckotAPI',
+            label: 'PeckotAPI',
+            position: 'left',
+          },
+          {
             to: 'docs/PeckotMC',
             label: 'PeckotMC',
             position: 'left',
