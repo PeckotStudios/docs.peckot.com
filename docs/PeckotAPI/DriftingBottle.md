@@ -8,7 +8,7 @@ tags:
 
 ## 接口简介
 
-该接口是一个简单的漂流瓶后端接口，提供了三个操作：pick（随机获取一个漂流瓶）、throw（投掷一个漂流瓶）和remove[^1]（删除多个符合特定条件的漂流瓶）。
+该接口是一个简单的漂流瓶后端接口，提供了三个操作：pick（随机获取一个漂流瓶）、throw（投掷一个漂流瓶）和remove[^*]（删除多个符合特定条件的漂流瓶）。
 
 **接口地址**
 
@@ -32,7 +32,7 @@ https://api.peckot.com/DriftingBottle
 |-------|-------|--------|------|
 | PICK | ✔️ | "pick" | 拾取漂流瓶 |
 | THROW | ❌ | "throw" | 投掷漂流瓶 |
-| REMOVE[^1] | ❌ | "remove" | 删除漂流瓶 |
+| REMOVE[^*] | ❌ | "remove" | 删除漂流瓶 |
 
 ### PICK操作
 
@@ -91,7 +91,7 @@ curl 'https://api.peckot.com/DriftingBottle?operation=throw&
   uid=2671876934'
 ```
 
-### REMOVE[^1]操作
+### REMOVE[^*]操作
 
 :::caution
 该操作涉及大量数据更改，需要管理员权限。
@@ -131,7 +131,7 @@ filter 参数必须是符合 MongoDB 查询语法的 JSON 字符串，例如：
 :::tip
 * PICK操作时，`bottles` 参数包含了本次拾取到的漂流瓶对象数组；
 * THROW操作时，`bottles` 参数包含了本次投掷的漂流瓶对象数组；
-* REMOVE[^1]操作时，`bottles` 参数中包含了本次删除的漂流瓶对象数组。
+* REMOVE[^*]操作时，`bottles` 参数中包含了本次删除的漂流瓶对象数组。
 :::
 
 ## 使用示例
@@ -211,7 +211,7 @@ curl 'https://api.peckot.com/DriftingBottle' \
   }'
 ```
 
-### REMOVE[^1]操作
+### REMOVE[^*]操作
 
 以下是一个典型的请求和响应示例:
 
@@ -271,4 +271,4 @@ curl 'https://api.peckot.com/DriftingBottle' \
 }
 ```
 
-[^1]：该操作需要管理员权限。
+[^*]: REMOVE 操作涉及数据量较大，需要管理员权限。
