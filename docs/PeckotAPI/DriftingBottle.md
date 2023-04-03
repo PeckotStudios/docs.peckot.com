@@ -88,7 +88,7 @@ curl 'https://api.peckot.com/DriftingBottle?operation=throw&
   content=Hello!&
   platform=QGuild&
   nick=Pectics&
-  uid=2671876934&
+  uid=2671876934'
 ```
 
 ### REMOVE[^1]操作
