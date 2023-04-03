@@ -259,7 +259,7 @@ curl 'https://api.peckot.com/DriftingBottle' \
 }
 ```
 
-## 异常处理
+### 异常处理
 
 当请求参数不正确或请求失败时，API返回一个错误响应以帮助调试。以下是一个错误响应示例：
 
