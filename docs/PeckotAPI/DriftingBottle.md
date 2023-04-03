@@ -271,6 +271,4 @@ curl 'https://api.peckot.com/DriftingBottle' \
 }
 ```
 
----
-
 [^1]：该操作需要管理员权限。
