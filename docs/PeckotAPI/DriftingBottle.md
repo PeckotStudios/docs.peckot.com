@@ -34,11 +34,11 @@ https://api.peckot.com/DriftingBottle
 | THROW | ❌ | "throw" | 投掷漂流瓶 |
 | REMOVE[^*] | ❌ | "remove" | 删除漂流瓶 |
 
-#### PICK操作
+### PICK操作
 
 该操作无需指定参数，直接发起请求即可获取随机漂流瓶。
 
-##### 使用示例
+#### 使用示例
 
 以下是一个典型的请求和响应示例:
 
@@ -80,7 +80,7 @@ curl 'https://api.peckot.com/DriftingBottle' \
 }
 ```
 
-#### THROW操作
+### THROW操作
 
 | 可选性 | 参数 | 类型 | 默认值 | 描述 | 可选值 |
 |-------|------|-----|--------|------|-------|
@@ -102,7 +102,7 @@ curl 'https://api.peckot.com/DriftingBottle' \
 | nick | string | 投掷者的昵称 |
 | uid | string | 投掷者的唯一标识符 |
 
-##### 使用示例
+#### 使用示例
 
 以下是一个典型的请求和响应示例:
 
@@ -158,7 +158,7 @@ curl 'https://api.peckot.com/DriftingBottle' \
 }
 ```
 
-###### input 参数
+#### input 参数
 
 对于投掷漂流瓶的操作，我们提供了一个 `input` 参数来方便用户使用 `GET` 请求来调用接口。 
 
@@ -189,7 +189,7 @@ curl 'https://api.peckot.com/DriftingBottle?operation=throw&
   uid=2671876934&
 ```
 
-#### REMOVE操作
+### REMOVE操作
 
 :::caution
 该操作涉及大量数据更改，需要管理员权限。
@@ -210,7 +210,7 @@ filter 参数必须是符合 MongoDB 查询语法的 JSON 字符串，例如：
 }
 ```
 
-##### 返回结果
+#### 返回结果
 
 | 响应 | 参数 | 类型 | 描述 |
 |-----|------|------|------|
@@ -246,4 +246,4 @@ filter 参数必须是符合 MongoDB 查询语法的 JSON 字符串，例如：
 
 ---
 
-[^*]该操作需要管理员权限
+[^*]：该操作需要管理员权限。
